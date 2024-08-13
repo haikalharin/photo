@@ -6,7 +6,7 @@ import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.haikal.photos.databinding.ItemMovieBinding
+import com.haikal.photos.databinding.ItemPhotoBinding
 import com.paem.core.entities.Photo
 
 class PhotoListPagingAdapter(private val onItemClick: (item: Photo) -> Unit) :
@@ -14,7 +14,7 @@ class PhotoListPagingAdapter(private val onItemClick: (item: Photo) -> Unit) :
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val inflater = LayoutInflater.from(parent.context)
-        val binding = ItemMovieBinding.inflate(inflater, parent, false)
+        val binding = ItemPhotoBinding.inflate(inflater, parent, false)
         return ViewHolder(binding)
     }
 
@@ -24,7 +24,7 @@ class PhotoListPagingAdapter(private val onItemClick: (item: Photo) -> Unit) :
         holder.bind(movie)
     }
 
-    class ViewHolder(val binding: ItemMovieBinding) : RecyclerView.ViewHolder(binding.root) {
+    class ViewHolder(val binding: ItemPhotoBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(data: Photo) {
             with(binding) {
                 Glide.with(binding.root)

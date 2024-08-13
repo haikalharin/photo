@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.haikal.photos.app-mergeDebugResources-43:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "com.haikal.photos.app-mergeDebugResources-44:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\STANFORD\\.gradle\\caches\\transforms-4\\30552135dff0aceb63adc1c197df3dd9\\transformed\\material-1.10.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "C:\\Users\\STANFORD\\.gradle\\caches\\transforms-4\\d6a16d7dc2ff3fa3fed3ad8223fe8139\\transformed\\material-1.10.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

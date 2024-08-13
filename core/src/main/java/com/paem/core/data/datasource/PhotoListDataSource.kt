@@ -23,7 +23,7 @@ class PhotoListDatasource(
             val response =
                 network.getPhotos( page = position, perPage = 10)
             LoadResult.Page(
-                data = response.body()!!.photoDataResponse.map { it.toPhoto() },
+                data = response.body()!!.map { it.toPhoto() },
                 prevKey = if (position == 1) null else position - 1,
                 nextKey = position + 1
             )

@@ -13,4 +13,11 @@ interface UserDao {
 
     @Query("SELECT * FROM user WHERE email =:email AND password =:password")
     suspend fun getUser(email: String, password: String): User?
+
+    // Method to get a list of all users
+    @Query("SELECT * FROM user ORDER BY id ASC")
+    suspend fun getAllUsers(): List<User>
+
+    @Query("DELETE FROM user WHERE username = :username")
+    suspend fun deleteUserByUsername(username: String): Int
 }

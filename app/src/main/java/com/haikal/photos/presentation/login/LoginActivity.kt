@@ -1,7 +1,11 @@
 package com.haikal.photos.presentation.login
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -13,6 +17,7 @@ import com.haikal.photos.databinding.ActivityLoginBinding
 import com.haikal.photos.datasource.local.model.User
 import com.haikal.photos.presentation.photos.PhotosActivity
 import com.haikal.photos.presentation.sign_up.SignUpActivity
+import com.haikal.photos.presentation.user.UserActivity
 import com.haikal.photos.utils.gone
 import com.haikal.photos.utils.show
 import com.haikal.photos.utils.showToast
@@ -56,8 +61,17 @@ class LoginActivity : AppCompatActivity() {
                     val role = state.user.mapRole(state.user.role)
                     when (role) {
                         User.Role.ADMIN -> {
+                            // Get SharedPreferences
+                            val sharedPref = getSharedPreferences("MySharedPref", Context.MODE_PRIVATE)
+
+                            // Save data
+                            val editor = sharedPref.edit()
+                            editor.putString("username", state.user.username)
+                            editor.putString("password", state.user.password)
+                            editor.apply()
+
                             //navigate to admin
-                            startActivity(Intent(this, AdminActivity::class.java))
+                            startActivity(Intent(this, UserActivity::class.java))
                             finish()
                         }
                         User.Role.USER -> {

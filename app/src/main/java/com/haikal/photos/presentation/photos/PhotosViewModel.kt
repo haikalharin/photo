@@ -5,7 +5,6 @@ import androidx.paging.PagingData
 import androidx.paging.cachedIn
 import com.paem.core.base.BaseViewModel
 import com.paem.core.data.PhotosRepository
-import com.paem.core.entities.Movie
 import com.paem.core.entities.Photo
 
 class PhotosViewModel  : BaseViewModel() {

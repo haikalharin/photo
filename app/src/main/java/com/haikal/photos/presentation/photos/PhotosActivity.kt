@@ -1,13 +1,19 @@
 package com.haikal.photos.presentation.photos;
 
+import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
 import androidx.paging.LoadState
 import androidx.paging.PagingData
 import androidx.recyclerview.widget.GridLayoutManager
+import com.haikal.photos.R
 import com.haikal.photos.databinding.ActivityPhotosBinding
-import com.paem.core.entities.Movie
+import com.haikal.photos.presentation.login.LoginActivity
 import com.paem.core.entities.Photo
 import com.paem.core.utils.gone
 import com.paem.core.utils.show
@@ -27,13 +33,42 @@ class PhotosActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?): Unit = with(binding) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-
-        val genreId = intent.getIntExtra(KEY_GENRE_ID, 0)
+        setSupportActionBar(binding.toolBar)
         lifecycleScope.launch {
             vm.getPhotoPagination().observe(this@PhotosActivity) {
                 showPhotos(it)
             }
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return true
+    }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.action_logout -> {
+                // Handle logout action here
+                logoutUser()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
+
+    private fun logoutUser() {
+        // Clear user session, redirect to login, etc.
+        Toast.makeText(this, "Logged out", Toast.LENGTH_SHORT).show()
+
+        val sharedPreferences = getSharedPreferences("MySharedPref", Context.MODE_PRIVATE)
+        val editor = sharedPreferences.edit()
+        editor.clear()
+        editor.apply()
+        val intent = Intent(this, LoginActivity::class.java)
+        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+        startActivity(intent)
+        finish()
     }
 
     private fun showPhotos(photoList: PagingData<Photo>) {

@@ -8,6 +8,8 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="34" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <permission
         android:name="com.haikal.photos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -29,6 +31,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Photos" >
         <activity
+            android:name="com.haikal.photos.presentation.user.UserActivity"
+            android:exported="false" />
+        <activity
             android:name="com.haikal.photos.presentation.admin.AdminActivity"
             android:exported="false" />
         <activity
@@ -36,19 +41,18 @@
             android:exported="false" />
         <activity
             android:name="com.haikal.photos.presentation.photos.PhotosActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.haikal.photos.MainActivity"
             android:exported="false" />
         <activity
             android:name="com.haikal.photos.presentation.login.LoginActivity"
             android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <provider

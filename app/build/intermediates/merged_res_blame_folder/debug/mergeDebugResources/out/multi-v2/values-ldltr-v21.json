@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.haikal.photos.app-mergeDebugResources-43:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.haikal.photos.app-mergeDebugResources-44:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\STANFORD\\.gradle\\caches\\transforms-4\\d53676de7564a7c2331936360b6f97ca\\transformed\\appcompat-1.7.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\STANFORD\\.gradle\\caches\\transforms-4\\61f004bb41db0db640eee31f14f99ac2\\transformed\\appcompat-1.7.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

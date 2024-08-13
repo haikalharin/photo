@@ -8,10 +8,12 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.google.android.material.appbar.AppBarLayout;
 import com.haikal.photos.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -22,20 +24,28 @@ public final class ActivityPhotosBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final AppBarLayout appBarLayout;
+
+  @NonNull
   public final ProgressBar progressBar;
 
   @NonNull
   public final RecyclerView rvMovies;
 
   @NonNull
+  public final Toolbar toolBar;
+
+  @NonNull
   public final TextView tvEmptyMovie;
 
   private ActivityPhotosBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ProgressBar progressBar, @NonNull RecyclerView rvMovies,
-      @NonNull TextView tvEmptyMovie) {
+      @NonNull AppBarLayout appBarLayout, @NonNull ProgressBar progressBar,
+      @NonNull RecyclerView rvMovies, @NonNull Toolbar toolBar, @NonNull TextView tvEmptyMovie) {
     this.rootView = rootView;
+    this.appBarLayout = appBarLayout;
     this.progressBar = progressBar;
     this.rvMovies = rvMovies;
+    this.toolBar = toolBar;
     this.tvEmptyMovie = tvEmptyMovie;
   }
 
@@ -66,6 +76,12 @@ public final class ActivityPhotosBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.appBarLayout;
+      AppBarLayout appBarLayout = ViewBindings.findChildViewById(rootView, id);
+      if (appBarLayout == null) {
+        break missingId;
+      }
+
       id = R.id.progress_bar;
       ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
       if (progressBar == null) {
@@ -78,14 +94,20 @@ public final class ActivityPhotosBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.toolBar;
+      Toolbar toolBar = ViewBindings.findChildViewById(rootView, id);
+      if (toolBar == null) {
+        break missingId;
+      }
+
       id = R.id.tv_empty_movie;
       TextView tvEmptyMovie = ViewBindings.findChildViewById(rootView, id);
       if (tvEmptyMovie == null) {
         break missingId;
       }
 
-      return new ActivityPhotosBinding((ConstraintLayout) rootView, progressBar, rvMovies,
-          tvEmptyMovie);
+      return new ActivityPhotosBinding((ConstraintLayout) rootView, appBarLayout, progressBar,
+          rvMovies, toolBar, tvEmptyMovie);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

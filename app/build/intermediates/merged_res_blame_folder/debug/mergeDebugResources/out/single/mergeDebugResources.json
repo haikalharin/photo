@@ -1,122 +1,150 @@
 [
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\layout_activity_movie_details.xml.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\layout\\activity_movie_details.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\layout_item_review.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\item_review.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\layout_fragment_review.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\fragment_review.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\layout_fragment_videos.xml.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\layout\\fragment_videos.xml"
+        "merged": "com.haikal.photos.app-debug-46:/layout_activity_photos.xml.flat",
+        "source": "com.haikal.photos.app-main-48:/layout/activity_photos.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\layout_item_review.xml.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\layout\\item_review.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\layout_item_user.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\item_user.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\layout_dialog_password.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\dialog_password.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\layout_item_movie.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\item_movie.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\layout_activity_admin.xml.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\layout\\activity_admin.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\layout_activity_genres.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\activity_genres.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\layout_item_genre.xml.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\layout\\item_genre.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\layout_activity_movie_details.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\activity_movie_details.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\layout_activity_photos.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\activity_photos.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\layout_fragment_review.xml.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\layout\\fragment_review.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\layout_activity_genres.xml.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\layout\\activity_genres.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\layout_item_video.xml.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\layout\\item_video.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\layout_activity_admin.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\activity_admin.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.haikal.photos.app-debug-45:/layout_activity_genres.xml.flat",
-        "source": "com.haikal.photos.app-main-47:/layout/activity_genres.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\layout_activity_photos.xml.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\layout\\activity_photos.xml"
+        "merged": "com.haikal.photos.app-debug-46:/layout_activity_user.xml.flat",
+        "source": "com.haikal.photos.app-main-48:/layout/activity_user.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\layout_activity_sign_up.xml.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\layout\\activity_sign_up.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\layout_activity_user.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\activity_user.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\layout_item_video.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\item_video.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\layout_item_movie.xml.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\layout\\item_movie.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\layout_fragment_videos.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\fragment_videos.xml"
     },
     {
-        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-45:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-47:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\layout_item_photo.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\item_photo.xml"
+    },
+    {
+        "merged": "com.haikal.photos.app-debug-46:/layout_activity_login.xml.flat",
+        "source": "com.haikal.photos.app-main-48:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\layout_item_genre.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\item_genre.xml"
+    },
+    {
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-debug-46:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\xml\\backup_rules.xml"
     }
 ]

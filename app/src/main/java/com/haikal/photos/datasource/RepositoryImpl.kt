@@ -12,4 +12,13 @@ class RepositoryImpl(private val localRepository: ILocalRepository) : IRepositor
         return localRepository.getUser(email, password)
     }
 
+    override suspend fun getAllUsers(): List<User> {
+        return localRepository.getAllUsers()
+    }
+
+    override suspend fun deleteUser(user: User): Boolean {
+
+        return localRepository.deleteUser(user = user)
+    }
+
 }

@@ -26,7 +26,6 @@ fun makeRetrofitService(
         .connectTimeout(180, TimeUnit.SECONDS)
         .writeTimeout(180, TimeUnit.SECONDS)
         .addInterceptor(logger)
-        .addInterceptor(koin.get<Interceptor>())
         .build()
 
     val contentType = "application/json".toMediaType()
