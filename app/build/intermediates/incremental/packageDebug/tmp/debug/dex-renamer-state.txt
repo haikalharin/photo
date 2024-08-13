@@ -1,4 +1,4 @@
-#Wed Aug 14 04:16:39 WIB 2024
+#Wed Aug 14 04:41:23 WIB 2024
 base.0=C\:\\Users\\STANFORD\\AndroidStudioProjects\\photos-master\\photos\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\STANFORD\\AndroidStudioProjects\\photos-master\\photos\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\10\\classes.dex
 base.10=C\:\\Users\\STANFORD\\AndroidStudioProjects\\photos-master\\photos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex

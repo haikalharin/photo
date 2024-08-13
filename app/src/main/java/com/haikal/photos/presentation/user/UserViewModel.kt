@@ -27,6 +27,7 @@ class UserViewModel(private val repository: IRepository) : ViewModel() {
         state(UserState.Loading)
         viewModelScope.launch {
             try {
+
                 val isDelete = repository.deleteUser(user = user)
                 if (isDelete) {
                     state(UserState.Success(isDelete))

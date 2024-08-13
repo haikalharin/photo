@@ -50,6 +50,7 @@ class UserActivity : AppCompatActivity() {
                 logoutUser()
                 true
             }
+
             else -> super.onOptionsItemSelected(item)
         }
     }
@@ -111,27 +112,35 @@ class UserActivity : AppCompatActivity() {
         // Prompt for admin password before deleting
         val passwordDialog = PasswordDialogFragment { password ->
             if (verifyPassword(password)) {
-                vm.deleteUser(user) { state ->
-                    when (state) {
-                        is UserState.Success -> {
-                            userAdapter.notifyDataSetChanged()
-                            Toast.makeText(
-                                this@UserActivity,
-                                "Deleted: ${user.username}",
-                                Toast.LENGTH_SHORT
-                            ).show()
-                            progressBar.gone()
-                            observeViewModel()
-                        }
+                val sharedPref = getSharedPreferences("MySharedPref", Context.MODE_PRIVATE)
 
-                        is UserState.Error -> {
-                            progressBar.gone()
-                        }
+                val username = sharedPref.getString("username", null)
+                if (username != user.username) {
+                    vm.deleteUser(user) { state ->
+                        when (state) {
+                            is UserState.Success -> {
+                                userAdapter.notifyDataSetChanged()
+                                Toast.makeText(
+                                    this@UserActivity,
+                                    "Deleted: ${user.username}",
+                                    Toast.LENGTH_SHORT
+                                ).show()
+                                progressBar.gone()
+                                observeViewModel()
+                            }
 
-                        UserState.Loading -> {
-                            progressBar.show()
+                            is UserState.Error -> {
+                                progressBar.gone()
+                            }
+
+                            UserState.Loading -> {
+                                progressBar.show()
+                            }
                         }
                     }
+                } else {
+                    Toast.makeText(this@UserActivity, "cannot delete the account in use", Toast.LENGTH_SHORT).show()
+
                 }
             } else {
                 Toast.makeText(this@UserActivity, "Invalid Password", Toast.LENGTH_SHORT).show()

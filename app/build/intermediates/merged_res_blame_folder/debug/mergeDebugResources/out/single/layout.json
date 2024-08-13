@@ -1,38 +1,42 @@
 [
     {
-        "merged": "com.haikal.photos.app-mergeDebugResources-45:/layout/item_photo.xml",
-        "source": "com.haikal.photos.app-main-48:/layout/item_photo.xml"
-    },
-    {
-        "merged": "com.haikal.photos.app-mergeDebugResources-45:/layout/dialog_password.xml",
-        "source": "com.haikal.photos.app-main-48:/layout/dialog_password.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-mergeDebugResources-45:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\activity_login.xml"
     },
     {
         "merged": "com.haikal.photos.app-mergeDebugResources-45:/layout/activity_login.xml",
         "source": "com.haikal.photos.app-main-48:/layout/activity_login.xml"
     },
     {
-        "merged": "com.haikal.photos.app-mergeDebugResources-45:/layout/activity_photos.xml",
-        "source": "com.haikal.photos.app-main-48:/layout/activity_photos.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-mergeDebugResources-45:\\layout\\item_user.xml",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\item_user.xml"
     },
     {
-        "merged": "com.haikal.photos.app-mergeDebugResources-45:/layout/item_user.xml",
-        "source": "com.haikal.photos.app-main-48:/layout/item_user.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-mergeDebugResources-45:\\layout\\activity_sign_up.xml",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "com.haikal.photos.app-mergeDebugResources-45:/layout/activity_admin.xml",
-        "source": "com.haikal.photos.app-main-48:/layout/activity_admin.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-mergeDebugResources-45:\\layout\\item_photo.xml",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\item_photo.xml"
     },
     {
-        "merged": "com.haikal.photos.app-mergeDebugResources-45:/layout/activity_sign_up.xml",
-        "source": "com.haikal.photos.app-main-48:/layout/activity_sign_up.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-mergeDebugResources-45:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.haikal.photos.app-mergeDebugResources-45:/layout/activity_user.xml",
-        "source": "com.haikal.photos.app-main-48:/layout/activity_user.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-mergeDebugResources-45:\\layout\\activity_user.xml",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\activity_user.xml"
     },
     {
-        "merged": "com.haikal.photos.app-mergeDebugResources-45:/layout/activity_main.xml",
-        "source": "com.haikal.photos.app-main-48:/layout/activity_main.xml"
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-mergeDebugResources-45:\\layout\\dialog_password.xml",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\dialog_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-mergeDebugResources-45:\\layout\\activity_admin.xml",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-mergeDebugResources-45:\\layout\\activity_photos.xml",
+        "source": "C:\\Users\\STANFORD\\.gradle\\daemon\\8.6\\com.haikal.photos.app-main-48:\\layout\\activity_photos.xml"
     }
 ]
