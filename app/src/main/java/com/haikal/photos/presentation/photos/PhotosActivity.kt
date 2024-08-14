@@ -25,7 +25,7 @@ class PhotosActivity : AppCompatActivity() {
 
     private val vm: PhotosViewModel by viewModel()
 
-    private val moviesAdapter = PhotoListPagingAdapter {
+    private val photosAdapter = PhotoListPagingAdapter {
 //        NavigationUtils.navigateToMovieDetails(this, it.id)
     }
 
@@ -73,10 +73,10 @@ class PhotosActivity : AppCompatActivity() {
 
     private fun showPhotos(photoList: PagingData<Photo>) {
         with(binding) {
-            moviesAdapter.submitData(lifecycle, photoList)
+            photosAdapter.submitData(lifecycle, photoList)
             rvMovies.apply {
                 layoutManager = GridLayoutManager(this@PhotosActivity, 2)
-                adapter = moviesAdapter
+                adapter = photosAdapter
             }
         }
         setupLoadingState()
@@ -84,7 +84,7 @@ class PhotosActivity : AppCompatActivity() {
 
     private fun setupLoadingState() {
         with(binding) {
-            moviesAdapter.addLoadStateListener { loadState ->
+            photosAdapter.addLoadStateListener { loadState ->
                 // show empty list
                 if (loadState.refresh is LoadState.Loading ||
                     loadState.append is LoadState.Loading)
